@@ -10,4 +10,8 @@ export class Calculadora {
     subtrair(a: number, b: number): number {
       return a - b;
     }
+    
+    multiplicar(a: number, b: number): number {
+        return a * b;
+      }
 }

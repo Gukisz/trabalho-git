@@ -1,4 +1,4 @@
-import { InterfaceMenu } from "./InterfaceMenu";
+import { InterfaceMenu } from "./Interface";
 
 const menu = new InterfaceMenu();
-menu.start();
+menu.iniciar();

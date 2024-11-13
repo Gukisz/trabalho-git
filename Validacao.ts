@@ -1,8 +1,10 @@
 export class Validacao {
-    static validarEntradaNumero(input: any): number {
-      const number = parseFloat(input);
-      if (isNaN(number)) throw new Error("Entrada inválida: número esperado.");
-      return number;
+    public static validarNumero(input: string): number {
+        const numero = Number(input);
+        if (isNaN(numero)) {
+            throw new Error("Entrada inválida. Por favor, digite um número válido.");
+        }
+        return numero;
     }
-  }
+}
   

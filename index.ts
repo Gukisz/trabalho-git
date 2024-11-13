@@ -1,3 +1,4 @@
-import { Calculadora } from "./Calculadora";
+import { InterfaceMenu } from "./InterfaceMenu";
 
-console.log("Calculadora iniciada.");
+const menu = new InterfaceMenu();
+menu.start();

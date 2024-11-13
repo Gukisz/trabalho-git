@@ -32,4 +32,9 @@ export class Calculadora {
     percentage(a: number, b: number): number {
         return (a * b) / 100;
     }
+    
+    logaritmo(a: number): number {
+        if (a <= 0) throw new Error("Logaritmo definido apenas para números positivos.");
+        return Math.log(a);
+      }
 }  

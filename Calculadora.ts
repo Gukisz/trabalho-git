@@ -19,4 +19,9 @@ export class Calculadora {
     if (b === 0) throw new Error("Divisão por zero não permitida.");
         return a / b;
     }
-}
+    
+    raizQuadrada(a: number): number {
+        if (a < 0) throw new Error("Número negativo não possui raiz quadrada real.");
+        return Math.sqrt(a);
+    }
+}  

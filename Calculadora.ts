@@ -28,4 +28,8 @@ export class Calculadora {
     potencia(a: number, b: number): number {
         return Math.pow(a, b);
     }
+
+    percentage(a: number, b: number): number {
+        return (a * b) / 100;
+    }
 }  

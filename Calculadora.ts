@@ -45,5 +45,8 @@ export class Calculadora {
     cosseno(angle: number): number {
         return Math.cos((angle * Math.PI) / 180);
       }
-
+     
+    tangente(angle: number): number {
+        return Math.tan((angle * Math.PI) / 180);
+      }
 }  

@@ -8,4 +8,8 @@ export class Historico {
     getHistorico(): string[] {
       return this.history;
     }
+
+    limparHistorico(): void {
+        this.history = [];
+      }
 }

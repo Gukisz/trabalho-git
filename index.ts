@@ -1,3 +1,3 @@
-import { Calculator } from "./Calculator";
+import { Calculadora } from "./Calculadora";
 
 console.log("Calculadora iniciada.");

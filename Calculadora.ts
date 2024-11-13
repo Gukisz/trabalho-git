@@ -40,5 +40,10 @@ export class Calculadora {
       
     seno(angle: number): number {
         return Math.sin((angle * Math.PI) / 180);
-      }  
+      } 
+      
+    cosseno(angle: number): number {
+        return Math.cos((angle * Math.PI) / 180);
+      }
+
 }  

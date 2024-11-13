@@ -24,4 +24,8 @@ export class Calculadora {
         if (a < 0) throw new Error("Número negativo não possui raiz quadrada real.");
         return Math.sqrt(a);
     }
+    
+    potencia(a: number, b: number): number {
+        return Math.pow(a, b);
+    }
 }  

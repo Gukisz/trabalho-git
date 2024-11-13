@@ -1,11 +1,11 @@
 export class Historico {
-    private history: string[] = [];
+    private historico: string[] = [];
   
     adicionarEntrada(entry: string): void {
-      this.history.push(entry);
+      this.historico.push(entry);
     }
   
     getHistorico(): string[] {
-      return this.history;
+      return this.historico;
     }
 }

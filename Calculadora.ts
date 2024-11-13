@@ -37,4 +37,8 @@ export class Calculadora {
         if (a <= 0) throw new Error("Logaritmo definido apenas para números positivos.");
         return Math.log(a);
       }
+      
+    seno(angle: number): number {
+        return Math.sin((angle * Math.PI) / 180);
+      }  
 }  

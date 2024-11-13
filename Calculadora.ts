@@ -5,7 +5,7 @@ export class Calculadora {
   }
   
 export class Calculadora {
-    add(a: number, b: number): number {
+    adicionar(a: number, b: number): number {
       return a + b;
     }
   }
